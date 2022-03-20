@@ -1,16 +1,6 @@
+import React from "react";
 import ReactDOM from "react-dom";
-import Logo from "./components/Logo";
-import BotaoIniciar from "./components/BotaoIniciar";
-
-function App(){
-    return(
-        <div className="tela-inicial">
-            <Logo/>
-            <BotaoIniciar/>
-        </div>
-    )
-}
+import App from "./components/App";
 
 
-
-ReactDOM.render(<App /> , document.querySelector(".tela-1"));
+ReactDOM.render(<App /> , document.querySelector(".root"));
