@@ -1,6 +1,6 @@
 import React from "react"
-import SegundaPagina from "./SegundaPagina/SegundaPagina"
-import Logo from "./PrimeiraPagina/Logo"
+import SegundaPagina from "../pag2/SegundaPagina"
+import Logo from "./Logo"
 
 
 export default function App(){
@@ -11,7 +11,6 @@ export default function App(){
     function renderizarTela(){
         function mudarPagina(){
             setPagina(pagina + 1)
-            console.log("teste")
         }
 
         if(pagina === 2){
