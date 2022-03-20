@@ -143,8 +143,8 @@ font-family: 'Roboto', sans-serif; */
 }
 
 .perguntaVirada p{
-    width: 112px;
-    height: 22px;
+    width: 247px;
+    height: 44px;
     font-family: 'Recursive', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -162,4 +162,88 @@ font-family: 'Roboto', sans-serif; */
     position: absolute;
     margin-top: 105px;
     margin-left: 254px;
+}
+
+.naoLembrei{
+    width: 85.17px;
+    height: 37.17px;
+    position: absolute;
+    background-color: #FF3030;
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-top: 87.83px;
+}
+
+.quaseLembrei{
+    width: 85.17px;
+    height: 37.17px;
+    position: absolute;
+    background-color: #FF922E;
+    border-radius: 5px;
+    margin-left: 105.91px;
+    margin-top: 87.83px;
+}
+
+.lembrei{
+    width: 85.17px;
+    height: 37.17px;
+    position: absolute;
+    background-color: #2FBE34;
+    border-radius: 5px;
+    margin-left: 198.83px;
+    margin-top: 87.83px;
+}
+
+.naoLembrei p{
+    width: 65.04px;
+    height: 37.17px;
+    position: absolute;
+    font-family: 'Recursive', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 10.84px;
+}
+
+.quaseLembrei p{
+    width: 75.88px;
+    height: 37.17px;
+    position: absolute;
+    font-family: 'Recursive', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 4.65px;
+}
+
+.lembrei p{
+    width: 29px;
+    height: 37px;
+    position: absolute;
+    font-family: 'Recursive', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-left: 27.17px;
 }

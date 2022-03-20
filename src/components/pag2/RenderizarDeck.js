@@ -7,7 +7,7 @@ export default function RenderizarDeck(props){
 
     if(deck === props.id){
         return (
-            <PerguntaVirada pergunta={props.Qpergunta}/>
+            <PerguntaVirada pergunta={props.Qpergunta} resposta={props.resposta}/>
             )
         }
         
