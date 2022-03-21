@@ -2,6 +2,30 @@ import React from "react"
 export default function PerguntaVirada(props){
 
     const [estadoCarta, setEstadoCarta]=React.useState(false)
+    const [status,setStatus] = React.useState("")
+
+    if(status === "naoLembrei"){
+        return (
+            <div className="deck vermelho">
+                <p>{props.novaPergunta}</p>
+                <img src="imagens/vermelho.png" alt="Imagem de circulo vermelho com um X no meio"/>
+            </div>
+        )
+    } else if(status === "quaseLembrei"){
+        return (
+            <div className="deck amarelo">
+                <p>{props.novaPergunta}</p>
+                <img src="imagens/amarelo.png" alt="Imagem de circulo amarelo com uma interrogação no meio"/>
+            </div>
+        )
+    } else if(status === "lembrei"){
+        return (
+            <div className="deck verde">
+                <p>{props.novaPergunta}</p>
+                <img src="imagens/verde.png" alt="Imagem de circulo verde com um V no meio"/>
+            </div>
+        )
+    }
 
     function mudarEstadoCarta(){
     if(estadoCarta === false){
@@ -15,9 +39,9 @@ export default function PerguntaVirada(props){
             return(
                 <div className="perguntaVirada">
                     <p>{props.resposta}</p>
-                    <div className="naoLembrei"><p>Não Lembrei</p></div>
-                    <div className="quaseLembrei"><p>Quase não Lembrei</p></div>
-                    <div className="lembrei"><p>Zap!</p></div>
+                    <div onClick={()=> setStatus("naoLembrei")} className="naoLembrei"><p>Não Lembrei</p></div>
+                    <div onClick={()=> setStatus("quaseLembrei")} className="quaseLembrei"><p>Quase não Lembrei</p></div>
+                    <div onClick={()=> setStatus("lembrei")} className="lembrei"><p>Zap!</p></div>
 
                 </div>
             )

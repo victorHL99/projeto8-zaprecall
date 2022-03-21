@@ -164,6 +164,9 @@ font-family: 'Roboto', sans-serif; */
     margin-left: 254px;
 }
 
+/********************** Respostas dentro do card Tela ***************************/
+
+
 .naoLembrei{
     width: 85.17px;
     height: 37.17px;
@@ -246,4 +249,34 @@ font-family: 'Roboto', sans-serif; */
     color: #FFFFFF;
     margin-top: 0px;
     margin-left: 27.17px;
+}
+
+.vermelho p{
+    color: #FF3030;
+    text-decoration-line: line-through;
+}
+
+.amarelo p{
+    color: #FF922E;
+    text-decoration-line: line-through;
+}
+
+.verde p{
+    color: #2FBE34;
+    text-decoration-line: line-through;
+}
+
+.vermelho img {
+    width: 23px;
+    height: 23px;
+}
+
+.amarelo img {
+    width: 23px;
+    height: 23px;
+}
+
+.verde img {
+    width: 23px;
+    height: 23px;
 }
