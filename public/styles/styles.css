@@ -112,6 +112,7 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    cursor: pointer;
 }
 
 .deck img{
@@ -162,6 +163,7 @@ font-family: 'Roboto', sans-serif; */
     position: absolute;
     margin-top: 105px;
     margin-left: 254px;
+    cursor: pointer;
 }
 
 /********************** Respostas dentro do card Tela ***************************/
@@ -175,6 +177,7 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 5px;
     margin-left: 13px;
     margin-top: 87.83px;
+    cursor: pointer;
 }
 
 .quaseLembrei{
@@ -185,6 +188,7 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 5px;
     margin-left: 105.91px;
     margin-top: 87.83px;
+    cursor: pointer;
 }
 
 .lembrei{
@@ -195,6 +199,7 @@ font-family: 'Roboto', sans-serif; */
     border-radius: 5px;
     margin-left: 198.83px;
     margin-top: 87.83px;
+    cursor: pointer;
 }
 
 .naoLembrei p{
