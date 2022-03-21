@@ -2,7 +2,6 @@ import React from "react"
 
 export default function PerguntaVirada(props){
 
-    const [contagem,setContagem]=React.useState(0)
     const [estadoCarta, setEstadoCarta]=React.useState(false)
     const [status,setStatus] = React.useState("")
 
@@ -48,12 +47,9 @@ export default function PerguntaVirada(props){
             return(
                 <div className="perguntaVirada">
                     <p>{props.resposta}</p>
-                    <div onClick={()=> {setStatus("naoLembrei") 
-                        setContagem(contagem+1)}} className="naoLembrei"><p>Não Lembrei</p></div>
-                    <div onClick={()=> {setStatus("quaseLembrei") 
-                        setContagem(contagem+1)}} className="quaseLembrei"><p>Quase não Lembrei</p></div>
-                    <div onClick={()=> {setStatus("lembrei") 
-                        setContagem(contagem+1) }} className="lembrei"><p>Zap!</p></div>
+                    <div onClick={()=> setStatus("naoLembrei")} className="naoLembrei"><p>Não Lembrei</p></div>
+                    <div onClick={()=> setStatus("quaseLembrei") } className="quaseLembrei"><p>Quase não Lembrei</p></div>
+                    <div onClick={()=> setStatus("lembrei") } className="lembrei"><p>Zap!</p></div>
 
                 </div>
             )
