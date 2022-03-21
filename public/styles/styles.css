@@ -285,3 +285,30 @@ font-family: 'Roboto', sans-serif; */
     width: 23px;
     height: 23px;
 }
+
+
+/********************** Footer ***************************/
+
+footer{
+    width: 100vw;
+    height: 70px;
+    background-color: #FFFFFF;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    width: 145px;
+    height: 22px;
+    font-family: 'Recursive', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}

@@ -1,6 +1,7 @@
 
 import Deck from "./Deck"
 import LogoMenor from "./LogoMenor"
+import Rodape from "./Rodape"
 
 
 export default function SegundaPagina(){
@@ -8,6 +9,7 @@ export default function SegundaPagina(){
         <main>
             <LogoMenor/>
             <Deck/>
+            <Rodape/>
         </main>
     
     )
