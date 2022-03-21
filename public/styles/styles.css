@@ -10,15 +10,14 @@ font-family: 'Roboto', sans-serif; */
     height: 100vh;
     background-color: #FB6B6B;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     overflow-y: auto;
-    
-    
+    flex-wrap: wrap;
 }
 /**********************Tela Inicial ***************************/
 .tela-inicial{
+    margin-top: 148px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,6 +75,7 @@ font-family: 'Roboto', sans-serif; */
 /********************** Segunda Tela ***************************/
 
 .titulo{
+    margin-top: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +101,12 @@ font-family: 'Roboto', sans-serif; */
 
 }
 
+.container-deck{
+    width: auto;
+    height: 370px;
+    position: fixed;
+    overflow-y: scroll;
+}
 
 .deck {
     width: 300px;
@@ -303,7 +309,7 @@ footer{
 }
 
 footer p{
-    width: 145px;
+    width: 147px;
     height: 22px;
     font-family: 'Recursive', sans-serif;
     font-style: normal;

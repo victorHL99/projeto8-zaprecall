@@ -1,7 +1,7 @@
 
 import Deck from "./Deck"
 import LogoMenor from "./LogoMenor"
-import Rodape from "./Rodape"
+import decks from "../ComponentesGlobais"
 
 
 export default function SegundaPagina(){
@@ -9,7 +9,10 @@ export default function SegundaPagina(){
         <main>
             <LogoMenor/>
             <Deck/>
-            <Rodape/>
+            <footer>
+                <p>/{decks.length} CONCLUÍDOS</p>
+            </footer>
+            
         </main>
     
     )

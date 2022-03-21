@@ -1,4 +1,5 @@
 import React from "react"
+
 export default function PerguntaVirada(props){
 
     const [contagem,setContagem]=React.useState(0)
@@ -7,24 +8,31 @@ export default function PerguntaVirada(props){
 
     if(status === "naoLembrei"){
         return (
-            <div className="deck vermelho">
-                <p>{props.novaPergunta}</p>
-                <img src="imagens/vermelho.png" alt="Imagem de circulo vermelho com um X no meio"/>
-            </div>
+            <>
+                <div className="deck vermelho">
+                    <p>{props.novaPergunta}</p>
+                    <img src="imagens/vermelho.png" alt="Imagem de circulo vermelho com um X no meio"/>
+                </div>
+            </>
+
         )
     } else if(status === "quaseLembrei"){
         return (
-            <div className="deck amarelo">
-                <p>{props.novaPergunta}</p>
-                <img src="imagens/amarelo.png" alt="Imagem de circulo amarelo com uma interrogação no meio"/>
-            </div>
+            <>
+                <div className="deck amarelo">
+                    <p>{props.novaPergunta}</p>
+                    <img src="imagens/amarelo.png" alt="Imagem de circulo amarelo com uma interrogação no meio"/>
+                </div>
+            </>
         )
     } else if(status === "lembrei"){
         return (
-            <div className="deck verde">
-                <p>{props.novaPergunta}</p>
-                <img src="imagens/verde.png" alt="Imagem de circulo verde com um V no meio"/>
-            </div>
+            <>
+                <div className="deck verde">
+                    <p>{props.novaPergunta}</p>
+                    <img src="imagens/verde.png" alt="Imagem de circulo verde com um V no meio"/>
+                </div>
+            </>
         )
     }
 
@@ -51,6 +59,7 @@ export default function PerguntaVirada(props){
             )
         }
     }
+
     return (
         <>
             {mudarEstadoCarta()}
